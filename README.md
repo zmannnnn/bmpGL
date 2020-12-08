@@ -23,7 +23,7 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### 异步的js文件（创建一个引入的bmpGL.js文件）
+### 异步的js文件（创建一个引入的bmpgl.js文件）
 ```
 export function BMPGL(ak) {
   return new Promise(function(resolve, reject) {
