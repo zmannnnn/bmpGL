@@ -1,5 +1,5 @@
 <template>
-  <div class="bmpGL">
+  <div class="home">
     <div id="container" class="allmap"></div>
   </div>
 </template>
@@ -7,7 +7,7 @@
 <script>
 import { BMPGL } from "@/bmpgl.js"
 export default {
-  name: "bmpGL",
+  name: "home",
   data() {
     return {
       ak: "LnP4INwY2AY2VSZFwcRMbNhPxUeBB7sA", // 这里就是百度地图密钥
