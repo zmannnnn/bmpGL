@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-    <bmpGL />
+     <BMapGL />
+     <!-- <BMapGLLib /> -->
   </div>
 </template>
 
 <script>
-import bmpGL from './components/bmpGL.vue'
-
+import BMapGL from './views/BMapGL.vue'
+// import BMapGLLib from './views/BMapGLLib.vue'
 export default {
   name: 'App',
   components: {
-    bmpGL
+    BMapGL,
+    // BMapGLLib
   }
 }
 </script>
