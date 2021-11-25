@@ -1,6 +1,8 @@
 <template>
   <div id="app">
+    <!-- 这里只是引入了BMapGL地图 -->
      <BMapGL />
+     <!-- 如果要看 BMapGLLib 就显示下面这个组件-->
      <!-- <BMapGLLib /> -->
   </div>
 </template>
